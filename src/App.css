@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +13,96 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.alert {
+  padding: 0.75 rem 1.25rem;
+  color: var(--mainWhite);
+  text-align: center;
+  text-transform: capitalize;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.alert-danger {
+  background: red;
+}
+.alert-success {
+  background: green;
+}
+.title{
+ text-align: center;
+ font-size: 40px;
+ text-transform: uppercase;
+ font-weight: 500;
+ letter-spacing: 1px;
+ margin: 3rem 0;
+ color: rgb(208, 72, 124);
+}
+.form-center{
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.form-control{
+  padding: 0.8rem 1.5rem;
+}
+label{
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(208, 72, 124);
+  background-color: rgb(149, 211, 229);
+  padding: 0.6rem 1rem;
+  box-shadow: 2px 3px 4px 1px #2b3957;
+}
+.btn{
+  padding: 0.8rem 1.7rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-size: large;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(208, 72, 124);
+  background-color: rgb(149, 211, 229);
+  box-shadow: 2px 3px 4px 1px #2b3957;
+  border: none;
+}
+.btn:hover{
+  cursor: pointer;
+  background: #8ae2e8;
+  color: rgb(96, 23, 80);
+}
+li{
+  list-style-type: none;
+ 
+}
+.row{
+  display: flex;
+  justify-content: center;
+  margin: 0rem 7rem 0 5rem;
+  
+}
+.item{
+  background-color: rgb(155, 199, 226);
+  color:rgb(208, 72, 124);
+  width: 100%;
+  text-align: center;
+}
+.info{
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding: 4px;
+  text-transform: capitalize;
+}
+.expense{
+  margin-right: 1rem;
+}
+.amount{
+  margin-right: 1rem;
+}
+.spending{
+  display: flex;
+  justify-content: center;
+  color: rgb(208, 72, 124);
+  font-size: large;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
